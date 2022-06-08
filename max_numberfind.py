@@ -3,11 +3,11 @@
 def maximum(a, b):
     if a >= b:
         print("Maximum Number is = ")
-        print(a)
+        print(a) #we can also use "return a" instead of print(a)
 
     else:
         print("Maximum Number is = ")
-        print(b)
+        print(b) #we can also use "return b" instead of print(b)
 
 
 number_1 = int(input("Enter First Number: "))
